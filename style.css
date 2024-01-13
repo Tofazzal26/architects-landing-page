@@ -161,6 +161,95 @@ nav >ul li a{
 
 
 
+
+
+    /* feature enjoy style */
+
+
+.feature-enjoy {
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+
+}
+
+
+
+.feature-enjoy h1{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+}
+
+.feature-enjoy .feature-description{
+    color: #727272;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+
+
+.feature-card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px 30px;
+    margin-top: 30px;
+}
+
+
+.feature-card h3{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-card p{
+    color:#727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 520px;
+}
+
+
+.feature-content {
+    margin-top: 50px;
+}
+
+
+.feature-enjoy .feature-img img{
+    padding-left: 120px;
+}
+
+.year-experience {
+    background-color: #FF900E;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    width: 342px;
+    position: relative;
+    left: 50px;
+    bottom: 130px;
+}
+
+.year-experience h2{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.year-experience p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
  /* mobile device responsibe */
 
 @media screen and (max-width: 576px) {
