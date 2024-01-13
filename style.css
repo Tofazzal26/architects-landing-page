@@ -20,6 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 40px 220px;
+    text-align: center;
 }
 
 nav > ul {
@@ -50,6 +51,10 @@ nav >ul li a{
     width: 862px;
     text-align: center;
     margin: 50px auto;
+}
+
+.brand-banner img{
+    
 }
 
 .brand-new * {
@@ -84,28 +89,106 @@ nav >ul li a{
 
 .brand-banner {
     text-align: center;
-    justify-content: center;
+    padding-bottom: 45px;
 }
 
 
 
 
+    /* main container start */
+    /* our feature style start */
+
+.container {
+    width: 76%;
+    max-width: 1460px;
+    margin: 0 auto;
+    
+}
+
+
+.our-divided {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.team-feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-feature {
+    
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.our-feature * {
+    margin-bottom: 25px;
+}
+
+.our-feature p{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.our-feature .qucik {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.our-feature .our {
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.our-feature .feature {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
 
 
 
 
+ /* mobile device responsibe */
+
+/* @media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .brand-new {
+        width: 100%;
+    }
+    .brand-banner img {
+        width: 100%;
+    }
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    .navbar{
+        
+    }
+    nav {
+        flex-direction: column;
+    }
+    .brand-new {
+        
+    }
+} */
 
