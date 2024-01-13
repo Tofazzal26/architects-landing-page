@@ -10,14 +10,16 @@
 
 /* header section style */
 
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+}
 
 
-header {
+.navbar {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255, 144, 14, 0.10);
     align-items: center;
-    padding: 50px 100px;
+    padding: 40px 220px;
 }
 
 nav > ul {
@@ -44,17 +46,46 @@ nav >ul li a{
     font-weight: 700;
 }
 
+.brand-new {
+    width: 862px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.brand-new * {
+    margin-bottom: 20px;
+}
+
+.brand-new h1{
+    color:  #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
 
 
+.brand-new p{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary{
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FF900E;
+    border: 0;
+    cursor: pointer;
+}
 
 
-
-
-
-
-
-
-
+.brand-banner {
+    text-align: center;
+    justify-content: center;
+}
 
 
 
