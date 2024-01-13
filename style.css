@@ -169,8 +169,7 @@ nav >ul li a{
 .feature-enjoy {
     display: flex;
     margin-top: 8rem;
-    align-items: center;
-
+    /* align-items: center; */
 }
 
 
@@ -218,7 +217,7 @@ nav >ul li a{
 
 
 .feature-content {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -247,6 +246,54 @@ nav >ul li a{
     color: #FFF;
     font-size: 25px;
     font-weight: 500;
+}
+
+
+
+    /* some facts section style */
+
+.some {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+.some-description {
+    width: 542px;
+    margin-top: 24px;
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.some-fact-content{
+    margin-top: 100px;
+    
+}
+.some-divided {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.some-card {
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.some-card h4{
+    color:#424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.some-card p{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;   
 }
 
 
