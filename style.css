@@ -49,7 +49,7 @@ nav >ul li a{
 .brand-new {
     /* width: 862px; */
     text-align: center;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 
@@ -62,6 +62,7 @@ nav >ul li a{
     font-weight: 700;
 }
 
+
 .brand-new {
     width: 100%;
 }
@@ -69,6 +70,8 @@ nav >ul li a{
     margin-bottom: 10px;
 }
 .brand-new p{
+    width: 870px;
+    margin: 25px auto;
     color:  #727272;
     font-size: 16px;
     font-weight: 400;
@@ -186,6 +189,7 @@ nav >ul li a{
     color: #727272;
     font-weight: 400;
     margin-top: 25px;
+    line-height: 26px;
 }
 
 
@@ -213,6 +217,7 @@ nav >ul li a{
     font-style: normal;
     font-weight: 400;
     width: 520px;
+    line-height: 26px;
 }
 
 
@@ -266,6 +271,7 @@ nav >ul li a{
     color:#727272;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
 }
 
 .some-fact-content{
@@ -294,6 +300,54 @@ nav >ul li a{
     color:#727272;
     font-size: 20px;
     font-weight: 600;   
+}
+
+
+    /* our sponsore start */
+
+.our-sponsor {
+    margin-top: 160px;
+}
+
+.our-sponsort-head {
+    text-align: center;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.our-discription {
+    text-align: center;
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+    margin: 22px auto;
+    line-height: 26px;
+}
+
+
+.sponsor-company {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+
+    /* footer section style */
+
+
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-top: 130px;
+}
+
+.footer p{
+    color:  #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px;
 }
 
 
