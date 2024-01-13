@@ -29,7 +29,7 @@ nav > ul {
 }
 
 nav > ul li {
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 nav >ul li a{
@@ -37,7 +37,6 @@ nav >ul li a{
     color: #424242;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
 }
 
 .agritect-head {
@@ -48,18 +47,14 @@ nav >ul li a{
 }
 
 .brand-new {
-    width: 862px;
+    /* width: 862px; */
     text-align: center;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
-.brand-banner img{
-    
-}
 
-.brand-new * {
-    margin-bottom: 20px;
-}
+
+
 
 .brand-new h1{
     color:  #131313;
@@ -67,13 +62,19 @@ nav >ul li a{
     font-weight: 700;
 }
 
-
+.brand-new {
+    width: 100%;
+}
+.brand-new *{
+    margin-bottom: 10px;
+}
 .brand-new p{
     color:  #727272;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
+
 
 .btn-primary{
     padding: 20px 25px;
@@ -90,6 +91,7 @@ nav >ul li a{
 .brand-banner {
     text-align: center;
     padding-bottom: 45px;
+    
 }
 
 
@@ -161,34 +163,36 @@ nav >ul li a{
 
  /* mobile device responsibe */
 
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar {
         flex-direction: column;
         padding: 10px;
+        margin: 0px 20px 0px 0px;
     }
     nav{
         flex-direction: column;
-    }
-    .brand-new {
-        width: 100%;
+        
     }
     .brand-banner img {
         width: 100%;
     }
-}
-
+    nav ul li {
+        margin: 0px 20px 0px 0px ;
+    }
+} 
 
 
 
 @media screen and (min-width: 577px) and (max-width: 960px) {
     .navbar{
-        
+        flex-direction: column;
     }
     nav {
         flex-direction: column;
     }
-    .brand-new {
-        
+    
+    .brand-banner img {
+        width: 100%;
     }
-} */
+}
 
