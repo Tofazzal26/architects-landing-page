@@ -127,7 +127,6 @@ nav >ul li a{
 }
 
 .our-feature {
-    
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -140,7 +139,6 @@ nav >ul li a{
     color:#727272;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
 }
 
 .our-feature .qucik {
@@ -369,11 +367,65 @@ nav >ul li a{
     nav ul li {
         margin: 0px 20px 0px 0px ;
     }
+    .our-divided {
+        flex-direction: column-reverse;
+    }
+    .brand-new p {
+        width: 100%;
+    }
+    .team-feature {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-divided, .our-feature,
+    .year-experience,.feature-enjoy .feature-img img,
+    .some, .some-fact-content
+    {
+        margin-top: 20px;
+    }
+    .feature-enjoy {
+        flex-direction: column;
+    }
+
+    .feature-card p, .some-description{
+        width: 100%;
+    }
+
+    .feature-enjoy .feature-img img{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .year-experience {
+        position: static;
+        
+    }
+    .some-divided {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+
+
+    .our-discription {
+        width: 100%;
+    }
+
+    .sponsor-company {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
 } 
 
 
+    /* tablet device style */
 
-@media screen and (min-width: 577px) and (max-width: 960px) {
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
     .navbar{
         flex-direction: column;
     }
@@ -384,5 +436,66 @@ nav >ul li a{
     .brand-banner img {
         width: 100%;
     }
+    .our-divided {
+        flex-direction: column-reverse;
+        
+    }
+    .brand-new p {
+        width: 100%;
+    }
+    .team-feature {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-divided, .our-feature, .feature-img img, .some-fact-content {
+        margin-top: 20px;
+    }
+    .feature-enjoy {
+        flex-direction: column;
+    }
+
+    .feature-card p{
+        width: 100%;
+    }
+
+    .feature-enjoy .feature-img img{
+        padding-left: 0px;
+        width: 100%; 
+    }
+    .year-experience {
+        position: static;
+        
+    }
+
+    .some-divided {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+
+
+
+    .our-discription {
+        width: 100%;
+    }
+
+    .sponsor-company {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
 
